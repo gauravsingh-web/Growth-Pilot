@@ -1,13 +1,9 @@
 {
-  "name": "paytm-2",
+  "name": "growthpilot-root",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Paytm GrowthPilot AI Monorepo",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd backend && npm install && node server.js"
+  }
 }
